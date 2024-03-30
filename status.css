@@ -1,0 +1,9 @@
+.rejected {
+    color: red;
+    text-decoration-color: red;
+}
+.rejected::before {
+    content: "✖";
+    color: red;
+    margin-right: 5px;
+}
